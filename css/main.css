@@ -912,7 +912,7 @@ a.accordion-toggle  i{
 }
 
 .tab-content h2{
-  margin-top: 0;
+  margin-top: 0px;
 }
 
 .tab-content img{
@@ -1440,43 +1440,23 @@ ul.social_icons li  a i{
   margin-left: -110px;
 }
 
+.request h4 a{
+  position: absolute;
+  width: 215px;
+  position: relative;
+}
+
 .request h4 {
   position: absolute;
-  width: 220px;
-  position:relative;
-}
-
-.request h4 a{
   background:#FFA400;
   color: #fff;
-  font-size: 14px;
+  font-size: 24px;
   font-weight: normal;
   border-radius: 3px;
-  padding: 5px 15px;
-}
-
-.request h4:after {
-  border-color: #FFA400 transparent transparent;
-  border-style: solid;
-  border-width: 12px;
-  bottom: -18px;
-  content: "";
-  height: 0;
-  position: absolute;
-  right: 13px;
-  z-index: -99999;
-}
-
-.request h4:before {
-  border-color: #FFA400 transparent transparent;
-  border-style: solid;
-  border-width: 12px;
-  bottom: -18px;
-  content: "";
-  height: 0;
-  left: 13px;
-  position: absolute;
-  z-index: -99999;
+  padding: 10px 10px;
+  width: 100px;
+  position: relative;
+  left: 75px;
 }
 
 .clients-area {
