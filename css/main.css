@@ -266,7 +266,7 @@ input.search-form:hover {
 .navbar {
   border-radius: 0;
   margin-bottom: 0;
-  background: #200B0A;
+  background: #1D0D0B;
   padding: 15px 0;
   padding-bottom: 0;
 }
@@ -2112,14 +2112,17 @@ ul.faq li > div h3 {
 }
 
 .blog-item {
-  border-radius: 0;
+  border-radius: 50px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #140706;
   overflow: hidden;
   margin-bottom: 50px;
 }
 
 .blog .blog-item .img-blog {
-  border-radius: 5px;
-  margin-bottom: 45px;
+  border-radius: 100px;
+  vertical-align: 
 }
 
 .blog .blog-item .blog-content {
