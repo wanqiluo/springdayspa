@@ -1422,10 +1422,10 @@ ul.social_icons li  a i{
 .get-started {
   background: none repeat scroll 0 0 #F3F3F3;
   border-radius: 3px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   position: relative;
-  margin-bottom: 18px;
-  margin-top: 60px;
+  margin-bottom: auto;
+  margin-top: 30px;
 }
 
 .get-started h2 {
@@ -1434,10 +1434,8 @@ ul.social_icons li  a i{
 }
 
 .request {
-  bottom: -15px;
-  left: 50%;
-  position: absolute;
-  margin-left: -110px;
+  margin: 0 auto;
+  display: inline-block;
 }
 
 .request h4 a{
@@ -1447,16 +1445,15 @@ ul.social_icons li  a i{
 }
 
 .request h4 {
-  position: absolute;
+  position: relative;
   background:#FFA400;
   color: #fff;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: normal;
   border-radius: 3px;
   padding: 10px 10px;
   width: 100px;
-  position: relative;
-  left: 60px;
+  margin: 10px;
 }
 
 .clients-area {
